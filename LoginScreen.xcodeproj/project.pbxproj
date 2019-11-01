@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB5C1DE72357AD3B000F51FB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5C1DE62357AD3B000F51FB /* SignUpViewController.swift */; };
 		FB7177A32354C02A0093D6A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7177A22354C02A0093D6A4 /* AppDelegate.swift */; };
-		FB7177A52354C02A0093D6A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7177A42354C02A0093D6A4 /* ViewController.swift */; };
+		FB7177A52354C02A0093D6A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7177A42354C02A0093D6A4 /* LoginViewController.swift */; };
 		FB7177A82354C02A0093D6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7177A62354C02A0093D6A4 /* Main.storyboard */; };
 		FB7177AB2354C02A0093D6A4 /* LoginScreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB7177A92354C02A0093D6A4 /* LoginScreen.xcdatamodeld */; };
 		FB7177AD2354C02A0093D6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7177AC2354C02A0093D6A4 /* Assets.xcassets */; };
 		FB7177B02354C02A0093D6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7177AE2354C02A0093D6A4 /* LaunchScreen.storyboard */; };
+		FB90511A236C9C9100DFE3BB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB905119236C9C9100DFE3BB /* WelcomeViewController.swift */; };
+		FBD9C2BC235CF90000E6505D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD9C2BB235CF90000E6505D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB5C1DE62357AD3B000F51FB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		FB71779F2354C02A0093D6A4 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7177A22354C02A0093D6A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB7177A42354C02A0093D6A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB7177A42354C02A0093D6A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FB7177A72354C02A0093D6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB7177AA2354C02A0093D6A4 /* LoginScreen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginScreen.xcdatamodel; sourceTree = "<group>"; };
 		FB7177AC2354C02A0093D6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB7177AF2354C02A0093D6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB7177B12354C02A0093D6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB905119236C9C9100DFE3BB /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FBD9C2BB235CF90000E6505D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD9C2BC235CF90000E6505D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				FB7177A12354C02A0093D6A4 /* LoginScreen */,
 				FB7177A02354C02A0093D6A4 /* Products */,
+				FBD9C2BA235CF90000E6505D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +65,24 @@
 			isa = PBXGroup;
 			children = (
 				FB7177A22354C02A0093D6A4 /* AppDelegate.swift */,
-				FB7177A42354C02A0093D6A4 /* ViewController.swift */,
+				FB905119236C9C9100DFE3BB /* WelcomeViewController.swift */,
+				FB7177A42354C02A0093D6A4 /* LoginViewController.swift */,
 				FB7177A62354C02A0093D6A4 /* Main.storyboard */,
+				FB5C1DE62357AD3B000F51FB /* SignUpViewController.swift */,
 				FB7177AC2354C02A0093D6A4 /* Assets.xcassets */,
 				FB7177AE2354C02A0093D6A4 /* LaunchScreen.storyboard */,
 				FB7177B12354C02A0093D6A4 /* Info.plist */,
 				FB7177A92354C02A0093D6A4 /* LoginScreen.xcdatamodeld */,
 			);
 			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		FBD9C2BA235CF90000E6505D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD9C2BB235CF90000E6505D /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7177A52354C02A0093D6A4 /* ViewController.swift in Sources */,
+				FB7177A52354C02A0093D6A4 /* LoginViewController.swift in Sources */,
+				FB90511A236C9C9100DFE3BB /* WelcomeViewController.swift in Sources */,
 				FB7177A32354C02A0093D6A4 /* AppDelegate.swift in Sources */,
+				FB5C1DE72357AD3B000F51FB /* SignUpViewController.swift in Sources */,
 				FB7177AB2354C02A0093D6A4 /* LoginScreen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +321,7 @@
 				FB7177B62354C02A0093D6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
